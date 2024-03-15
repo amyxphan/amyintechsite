@@ -58,3 +58,41 @@ body {
   width: 220px;
   height: 220px;
 }
+
+.main-about {
+  padding-top: 250px;
+}
+
+.main-about-title {
+  font-size: 60px;
+  padding-right: 250px;
+}
+
+.main-about-slides {
+  width: 450;
+  height: 300;
+}
+
+.main-about-button {
+  padding-top: 75px;
+  font-size: 20px;
+}
+
+.main-project {
+  padding-top: 250px;
+}
+
+.main-project-title {
+  font-size: 60px;
+  padding-right: 250px;
+}
+
+.main-project-slides {
+  width: 450;
+  height: 300;
+}
+
+.main-project-button {
+  padding-top: 75px;
+  font-size: 20px;
+}

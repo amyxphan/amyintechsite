@@ -2,11 +2,16 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import './App.css';
 
+//import main pfp
 import pfp from '/Users/amyphan/Desktop/PersonalSite/amyintechsite/amyintech/src/img/pfp.jpg';
+
 //imoprt social icons
 import GitHub from '/Users/amyphan/Desktop/PersonalSite/amyintechsite/amyintech/src/img/GitHub.png';
 import LinkedIn from '/Users/amyphan/Desktop/PersonalSite/amyintechsite/amyintech/src/img/LinkedIn.png';
 import Resume from '/Users/amyphan/Desktop/PersonalSite/amyintechsite/amyintech/src/img/Resume.png';
+
+//imports for photoslide shows 
+import about1 from '/Users/amyphan/Desktop/PersonalSite/amyintechsite/amyintech/src/img/about1.jpg';
 
 const Main = () => {
   return (
@@ -16,13 +21,9 @@ const Main = () => {
             <span style={{ color: 'rgb(71, 226, 250)' }}> print </span>
             <TypeAnimation
                 sequence={[
-                    // Same substring at the start will only be typed out once, initially
-                    " (Hello World! I'm Amy Phan.)",
-                    1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    " (Computer engineering student.)",
-                    1000,
-                    " (Aspiring Software Engineer.)",
-                    1000,
+                    " (Hello World! I'm Amy Phan.)", 1000,
+                    " (Computer engineering student.)", 1000,
+                    " (Aspiring Software Engineer.)", 1000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -46,8 +47,24 @@ const Main = () => {
                 <img src={Resume} alt="Resume Icon" className="main-social-icon" />
             </a>
         </div>
+        <div className='main-about'> 
+            <b className='main-about-title'> Get to know me </b>
+            {/* photoslide show */}
+            <div className='main-about-button'>
+                Learn More
+            </div>
+        </div>
+        <div className='main-project'> 
+            <b className='main-project-title'> View my projects! </b>
+            {/* photoslideshow */}
+            <div>
+                <p> <img src="{about1}"/></p>
+            </div>
+            <div className='main-project-button'>
+                Learn More
+            </div>
+        </div>
     </body>
   );
 };
-
 export default Main;
