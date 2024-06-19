@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import pfp from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/pfp.JPG';
 import './App.css';
+import AmyPhanResumeJune2024 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/AmyPhanResumeJune2024.pdf'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <p>
           $ print(Hello World! I'm Amy Phan.)
         </p>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pfp} className="App-logo" alt="profile-picture" />
 
         {/* hyperlink socials  */}
         <a
@@ -17,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub
+          <img src="/GitHub.png" alt="GitHub" style={{ height: '50px' }} />
         </a>
         <a
           className="App-link"
@@ -25,15 +26,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          <img src="/LinkedIn.png" alt="LinkedIn" style={{ height: '50px' }} />
         </a>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href={AmyPhanResumeJune2024}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume
+          <img src="/Resume.png" alt="Resume" style={{ height: '50px' }} />
         </a>
       </header>
     </div>
