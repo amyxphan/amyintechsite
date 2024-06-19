@@ -5,17 +5,35 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          $ print(Hello World! I'm Amy Phan.)
         </p>
+        <img src={logo} className="App-logo" alt="logo" />
+
+        {/* hyperlink socials  */}
+        <a
+          className="App-link"
+          href="https://github.com/amyxphan"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <a
+          className="App-link"
+          href="https://www.linkedin.com/in/amyphan2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Resume
         </a>
       </header>
     </div>
