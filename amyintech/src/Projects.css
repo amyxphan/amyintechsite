@@ -1,0 +1,33 @@
+.Projects {
+    text-align: center;
+  }
+  
+  .Projects-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .Projects-subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin: 20px;
+    white-space: pre; 
+    display: flex;
+  }
+  
+  .Projects-intro::after {
+    content: '|';
+    display: inline-block;
+    animation: blink 0.7s steps(1) infinite;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
