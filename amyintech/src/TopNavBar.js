@@ -1,15 +1,20 @@
 import React from 'react';
-import './TopNavBar.css'; // Import the CSS file for styling
+import './TopNavBar.css'; 
+
+//addings additional screens 
+import App from './App.js';
+import About from './About.js';
+import Projects from './Projects.js';
 
 function TopNavBar() {
   return (
     <nav className="navbar">
-      <ul className="navbar-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+       <ul className="navbar-links">
+            <li><a href={App}>Home</a></li>
+            <li><a href={About}>About</a></li>
+            <li><a href={Projects}>Projects</a></li>
       </ul>
-    </nav>
+  </nav>
   );
 }
 

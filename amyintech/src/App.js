@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import pfp from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/pfp.JPG';
+// import { BrowserRouter as Route, Routes } from 'react-router-dom';
 import './App.css';
+
+// importing external pages 
 import TopNavBar from './TopNavBar';
+// import About from './About';
+// import Projects from './Projects';
 
 
 import AmyPhanResumeJune2024 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/AmyPhanResumeJune2024.pdf'
@@ -32,7 +37,7 @@ function App() {
         <p className="App-intro">
           $ <Typewriter text="print(Hello World! I'm Amy Phan.)" />
         </p>
-        <img src={pfp} className="App-logo" alt="profile-picture" />
+        <img src={pfp} className="App-logo" alt="" />
 
         {/* hyperlink socials  */}
           <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "40px" }}>
@@ -42,7 +47,7 @@ function App() {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <img src="/GitHub.png" alt="GitHub" style={{ height: '50px', paddingRight: "4px" }} />
+              <img src="/GitHub.png" alt="" style={{ height: '50px', paddingRight: "4px" }} />
             </a>
             <a
               className="App-link"
@@ -50,7 +55,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/LinkedIn.png" alt="LinkedIn" style={{ height: '50px' }} />
+              <img src="/LinkedIn.png" alt="" style={{ height: '50px' }} />
             </a>
             <a
               className="App-link"
@@ -58,7 +63,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/Resume.png" alt="Resume" style={{ height: '50px' }} />
+              <img src="/Resume.png" alt="" style={{ height: '50px' }} />
             </a>
           </div>
       </header>
