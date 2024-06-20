@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import pfp from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/pfp.JPG';
 import './App.css';
+import TopNavBar from './TopNavBar';
+
+
 import AmyPhanResumeJune2024 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/AmyPhanResumeJune2024.pdf'
 
 // typewwriter effect for intro
@@ -24,6 +27,7 @@ const Typewriter = ({ text, speed = 150 }) => {
 function App() {
   return (
     <div className="App">
+      <TopNavBar />
       <header className="App-header">
         <p className="App-intro">
           $ <Typewriter text="print(Hello World! I'm Amy Phan.)" />
