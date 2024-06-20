@@ -2,11 +2,6 @@ import React, { useState } from 'react';
 import { Nav, NavLink, Bars, NavMenu } from "./NavElements";
 import './TopNavBar.css'; 
 
-// //addings additional screens 
-// import App from './App.js';
-// import About from './About.js';
-// import Projects from './Projects.js';
-
 function TopNavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
