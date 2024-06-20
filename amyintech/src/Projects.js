@@ -5,7 +5,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div>
-        This page will be coming soon 
+        This project page will be coming soon 
     </div>
   );
 }
