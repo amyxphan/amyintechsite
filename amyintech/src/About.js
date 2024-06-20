@@ -5,7 +5,7 @@ import './About.css';
 function About() {
   return (
     <div>
-        This page will be coming soon 
+        This about page will be coming soon 
     </div>
   );
 }
