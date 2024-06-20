@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Nav, NavLink, Bars, NavMenu } from "./NavElements";
 import './TopNavBar.css'; 
 
@@ -8,14 +8,19 @@ import './TopNavBar.css';
 // import Projects from './Projects.js';
 
 function TopNavBar() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+    };
   return (
-    <Nav className="navbar">
-        <Bars />
-            <NavMenu className="navbar-links">
-                <NavLink to="/" > Home </NavLink>
-                <NavLink to="/About" activeStyle> About </NavLink>
-                <NavLink to="/Projects" activeStyle> Projects </NavLink>
-            </NavMenu>
+    <Nav>
+        <Bars onClick={toggleMenu}/>
+        <NavMenu isOpen={isOpen}>
+            <NavLink to="/" onClick={() => setIsOpen(false)}> Home </NavLink>
+            <NavLink to="/About" activeStyle onClick={() => setIsOpen(false)}> About </NavLink>
+            <NavLink to="/Projects" activeStyle onClick={() => setIsOpen(false)}> Projects </NavLink>
+      </NavMenu>
     </Nav>
     );
 };
