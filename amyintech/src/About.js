@@ -39,7 +39,23 @@ function About() {
             Get to know me!
           </h1>
 
-          <p className="About-intro">
+          <ul className="About-intro">
+            <li> 🎓 &nbsp;&nbsp;Recent Grad from UNT </li>
+            <li> 💻 &nbsp;&nbsp;B.S. Computer Engineering </li>
+            <li> 👩‍💻 &nbsp;&nbsp;Incoming SWE at JPMorgan Chase & Co. </li>
+            <li> 🧪 &nbsp;&nbsp;Founder of Society of Asian Scientists and Engineers at UNT (SASE UNT) </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="About-spacer"></div>
+
+      <div className="About-story-container">
+        <h1 className="About-subtitle">
+          My Story
+        </h1>
+
+        <p className="About-intro">
           Hello! My name is Amy Phan and I'm a recent grad from the University of North Texas 
           with a Bachelor's degree in Computer Engineering. My interest in engineering began 
           as a little girl. Rather than playing dress up with dolls, I loved to break and 
@@ -50,8 +66,7 @@ function About() {
           full-time software engineer this August. I am passionate about accessibility, and hope 
           to create innovative solutions that bridge gaps and drive positive change in the tech 
           industry.
-          </p>
-        </div>
+        </p>
       </div>
 
       <div className="About-awards-container">
