@@ -30,33 +30,39 @@ function About() {
           $ <Typewriter text="print(About Me)" />
         </p>
 
-        <p className="About-subtitle">
-          Get to know me!
-        </p>
+      <div className="About-intro-container">
 
         <img src={about1} className="About-photo" alt="" />
 
-        <p className="About-intro">
-        Hello! My name is Amy Phan and I'm a recent grad from the University of North Texas 
-        with a Bachelor's degree in Computer Engineering. My interest in engineering began 
-        as a little girl. Rather than playing dress up with dolls, I loved to break and 
-        unscrew toy cars to learn how to put everything back together. As I grew older I 
-        implemented these habits into my day-to-day life. As I advanced through my studies, I 
-        discovered a deeper passion for software engineering, dedicating my time to 
-        self-teaching and hands-on projects. I'll be returning to JPMorgan Chase & Co. as a 
-        full-time software engineer this August. I am passionate about accessibility, and hope 
-        to create innovative solutions that bridge gaps and drive positive change in the tech 
-        industry.
-        </p>
+        <div className="About-intro-des">
+          <h1 className="About-subtitle">
+            Get to know me!
+          </h1>
 
-        <p className="About-subtitle">
-          Awards
-        </p>
+          <p className="About-intro">
+          Hello! My name is Amy Phan and I'm a recent grad from the University of North Texas 
+          with a Bachelor's degree in Computer Engineering. My interest in engineering began 
+          as a little girl. Rather than playing dress up with dolls, I loved to break and 
+          unscrew toy cars to learn how to put everything back together. As I grew older I 
+          implemented these habits into my day-to-day life. As I advanced through my studies, I 
+          discovered a deeper passion for software engineering, dedicating my time to 
+          self-teaching and hands-on projects. I'll be returning to JPMorgan Chase & Co. as a 
+          full-time software engineer this August. I am passionate about accessibility, and hope 
+          to create innovative solutions that bridge gaps and drive positive change in the tech 
+          industry.
+          </p>
+        </div>
+      </div>
+
+      <div className="About-awards-container">
+        <h1 className="About-subtitle">
+          Highlights + Leadership
+        </h1>
 
         <p className="About-intro">
         Descriptions
         </p>
-
+      </div>
       </header>
     </div>
   );
