@@ -22,7 +22,29 @@ const Typewriter = ({ text, speed = 150 }) => {
   return <span>{displayedText}</span>;
 };
 
+//slideshow functionallities
+const slides = [
+  { src: 'img1.jpg', caption: 'Caption One' },
+  { src: 'img2.jpg', caption: 'Caption Two' },
+  { src: 'img3.jpg', caption: 'Caption Three' },
+];
+
+
 function About() {
+  //slideshow 
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextSlide = () => {
+    setCurrentIndex((currentIndex + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((currentIndex - 1 + slides.length) % slides.length);
+  };
+
+  const setSlide = (index) => {
+    setCurrentIndex(index);
+  };
   return (
     <div className="About">
       <header className="About-header">
@@ -76,9 +98,25 @@ function About() {
           Highlights + Leadership
         </h1>
 
-        <p className="About-intro">
-        Descriptions
-        </p>
+        <div className="About-slideshow-container">
+          {slides.map((slide, index) => (
+            <div key={index} className={`mySlides fade ${index === currentIndex ? 'active' : ''}`}>
+              <img src={slide.src} alt={`Slide ${index}`} style={{ width: '100%' }} />
+              <div className="text">{slide.caption}</div>
+            </div>
+          ))}
+          <a className="prev" onClick={prevSlide}>&#10094;</a>
+          <a className="next" onClick={nextSlide}>&#10095;</a>
+          <div className="dots-container">
+            {slides.map((_, index) => (
+              <span
+                key={index}
+                className={`dot ${index === currentIndex ? 'active' : ''}`}
+                onClick={() => setSlide(index)}
+              ></span>
+            ))}
+          </div>
+        </div>
       </div>
       </header>
     </div>
