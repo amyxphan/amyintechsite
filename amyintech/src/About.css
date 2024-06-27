@@ -49,8 +49,17 @@
   }
 
   .About-story-container {
-    display: flex;
     align-items: center;
+  }
+
+  .About-story-subtile {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 20px;
+    white-space: pre; 
+    display: flex;
+    justify-content: center;
   }
 
   .About-awards-container {
