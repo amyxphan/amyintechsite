@@ -3,6 +3,24 @@ import './About.css';
 
 //importing photos
 import about1 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/about1.jpg';
+import highlight1 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight1.JPG';
+import highlight2 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight2.HEIC';
+import highlight3 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight3.HEIC';
+import highlight4 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight4.jpg';
+import highlight5 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight5.HEIC';
+import highlight6 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight6.jpg';
+import highlight7 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight7.JPG';
+import highlight8 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight8.JPG';
+import highlight9 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight9.JPG';
+import highlight10 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight10.JPG';
+import highlight11 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight11.JPG'; 
+import highlight12 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight12.JPG';
+import highlight13 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight13.JPG';
+import highlight14 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight14.jpg';
+import highlight15 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight15.jpg';
+import highlight16 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight16.JPG';
+import highlight17 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight17.JPG';
+import highlight18 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight18.HEIC';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
@@ -24,9 +42,24 @@ const Typewriter = ({ text, speed = 150 }) => {
 
 //slideshow functionallities
 const slides = [
-  { src: 'img1.jpg', caption: 'Caption One' },
-  { src: 'img2.jpg', caption: 'Caption Two' },
-  { src: 'img3.jpg', caption: 'Caption Three' },
+  { img: highlight1, caption: 'Caption One' },
+  { img: highlight2, caption: 'Caption Two' },
+  { img: highlight3, caption: 'Caption Three' },
+  { img: highlight4, caption: 'Caption Four' },
+  { img: highlight5, caption: 'Caption Five' },
+  { img: highlight6, caption: 'Caption Six' },
+  { img: highlight7, caption: 'Caption Seven' },
+  { img: highlight8, caption: 'Caption Eight' },
+  { img: highlight9, caption: 'Caption Nine' },
+  { img: highlight10, caption: 'Caption Ten' },
+  { img: highlight11, caption: 'Caption Eleven' },
+  { img: highlight12, caption: 'Caption Twelve' },
+  { img: highlight13, caption: 'Caption Thirteen' },
+  { img: highlight14, caption: 'Caption Fourteen' },
+  { img: highlight15, caption: 'Caption Fifteen' },
+  { img: highlight16, caption: 'Caption Sixteen' },
+  { img: highlight17, caption: 'Caption Seventeen' },
+  { img: highlight18, caption: 'Caption Eighteen' },
 ];
 
 
@@ -101,7 +134,7 @@ function About() {
         <div className="About-slideshow-container">
           {slides.map((slide, index) => (
             <div key={index} className={`mySlides fade ${index === currentIndex ? 'active' : ''}`}>
-              <img src={slide.src} alt={`Slide ${index}`} style={{ width: '100%' }} />
+              <img src={slide.img} alt={`Slide ${index}`} style={{ width: '100%' }} />
               <div className="text">{slide.caption}</div>
             </div>
           ))}
