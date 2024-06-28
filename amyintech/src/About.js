@@ -40,22 +40,51 @@ const Typewriter = ({ text, speed = 150 }) => {
 
 //slideshow functionallities
 const slides = [
-  { img: highlight1, caption: 'Caption One' },
-  { img: highlight2, caption: 'Caption Two' },
-  { img: highlight3, caption: 'Caption Three' },
-  { img: highlight4, caption: 'Caption Four' },
-  { img: highlight5, caption: 'Caption Five' },
-  { img: highlight6, caption: 'Caption Six' },
-  { img: highlight7, caption: 'Caption Seven' },
-  { img: highlight8, caption: 'Caption Eight' },
-  { img: highlight9, caption: 'Caption Nine' },
-  { img: highlight10, caption: 'Caption Ten' },
-  { img: highlight11, caption: 'Caption Eleven' },
-  { img: highlight12, caption: 'Caption Twelve' },
-  { img: highlight13, caption: 'Caption Thirteen' },
-  { img: highlight14, caption: 'Caption Fourteen' },
-  { img: highlight15, caption: 'Caption Fifteen' },
-  { img: highlight16, caption: 'Caption Sixteen' },
+  { img: highlight1,
+    caption: '2022 New Student Organization of the Year Awarded by UNT Department of Student Activities * Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
+  },
+  { img: highlight2, 
+    caption: '2022 Brick Ceremony Awarded by UNT Department of Student Activities * Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
+  },
+  { img: highlight6, 
+    caption: 'First general meeting for SASE with American Airlines' 
+  },
+  { img: highlight3, 
+    caption: '2022 Outstanding New Chapter Awarded by Society of Asian Scientists and Engineers (SASE) * Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few. * Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement' 
+  },
+  { img: highlight4, 
+    caption: '2022 JPMorgan Chase & Co. CodeForGood Hackathon Winner Awarded by JPMorgan Chase & Co. * Generated a website and mobile application to help a nonprofit organization. * This project can be found in the Projects tab! *' 
+  },
+  { img: highlight8, 
+    caption: '2023 President of the Year' 
+  },
+  { img: highlight7, 
+    caption: 'Dream internship at JPMC' 
+  },
+  { img: highlight10, 
+    caption: 'attended GHC 2023 in Orlando FL' 
+  },
+  { img: highlight11, 
+    caption: 'participated in SASE Mental Health initiative' 
+  }, 
+  { img: highlight12, 
+    caption: 'SASE South Team' 
+  },
+  { img: highlight14, 
+    caption: 'led a workshop for students about networking' 
+  },
+  { img: highlight16, 
+    caption: '1 of my 4 schools that I mentored (OU)' 
+  },
+  { img: highlight13, 
+    caption: 'participted in WeHack UTD won 2nd Place' 
+  },
+  { img: highlight15, 
+    caption: 'won 2024 golden eagle ' 
+  },
+  { img: highlight9, 
+    caption: 'graduated ' 
+  },
 ];
 
 
