@@ -5,6 +5,7 @@ body, html, ul, li, a {
   justify-content: center;
   text-decoration: none;
   color: inherit;
+  background-color: #282c34;
 }
 
 .navbar {
