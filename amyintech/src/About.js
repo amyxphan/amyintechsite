@@ -41,49 +41,73 @@ const Typewriter = ({ text, speed = 150 }) => {
 //slideshow functionallities
 const slides = [
   { img: highlight1,
-    caption: '2022 New Student Organization of the Year Awarded by UNT Department of Student Activities * Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
+    title: '2022 New Student Organization of the Year',
+    subtitle: 'Awarded by UNT Department of Student Activities',
+    caption: '* Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
   },
   { img: highlight2, 
-    caption: '2022 Brick Ceremony Awarded by UNT Department of Student Activities * Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
+    title: '2022 UNT Brick Ceremony',
+    subtitle: 'Awarded by UNT Department of Student Activities',
+    caption: '* Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
   },
   { img: highlight6, 
-    caption: 'First general meeting for SASE with American Airlines' 
+    title: 'UNT SASE First General Meeting',
+    subtitle: 'collaboration with SHPE, NSBE, and American Airlines',
+    caption: '* UNT SASE first ever meeting as a chapter, we had over 45+ engineering students in attendance at this meeting' 
   },
   { img: highlight3, 
-    caption: '2022 Outstanding New Chapter Awarded by Society of Asian Scientists and Engineers (SASE) * Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few. * Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement' 
+    title: '2022 SASE Outstanding New Chapter',
+    subtitle: 'Awarded by Society of Asian Scientists and Engineers (SASE) ',
+    caption: '* Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few.',
+    caption: '* Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement',
   },
   { img: highlight4, 
-    caption: '2022 JPMorgan Chase & Co. CodeForGood Hackathon Winner Awarded by JPMorgan Chase & Co. * Generated a website and mobile application to help a nonprofit organization. * This project can be found in the Projects tab! *' 
+    title: '2022 CodeForGood Hackathon Winner',
+    subtitle: 'Awarded by JPMorgan Chase & Co. (Plano, TX)',
+    caption: '* Generated a website and mobile application to help Education to Employment Partners (non-profit) expand their mission to help expand Coastal Compass programming to residents of the rural areas of the Coastal Bend.',
   },
   { img: highlight8, 
-    caption: '2023 President of the Year' 
+    title: '2023 President of the Year',
+    subtitle: 'Awarded by UNT Department of Student Activities',
+    caption: '* Honors a president (out of 450+) who has demonstrated a high level of leadership and involvement in their organization' 
   },
   { img: highlight7, 
-    caption: 'Dream internship at JPMC' 
+    title: '2023 Software Engineer Intern at JPMC',
+    caption: '* accquired dream internship at JPMorgan Chase & Co.' 
   },
   { img: highlight10, 
-    caption: 'attended GHC 2023 in Orlando FL' 
+    title: '2023 Grace Hopper Scholar',
+    caption: '* attended GHC 2023 in Orlando, FL' 
   },
   { img: highlight11, 
+    title: 'SASE Mental Health Initiative Team Member',
     caption: 'participated in SASE Mental Health initiative' 
   }, 
   { img: highlight12, 
+    title: '2023-24 SASE South Regional Coordinator',
     caption: 'SASE South Team' 
   },
   { img: highlight14, 
+    title: 'hosted Networking 101 workshop',
     caption: 'led a workshop for students about networking' 
   },
   { img: highlight16, 
+    title: 'Mentored and supported students at 4 SASE Chapters',
     caption: '1 of my 4 schools that I mentored (OU)' 
   },
   { img: highlight13, 
-    caption: 'participted in WeHack UTD won 2nd Place' 
+    title: 'WeHack UTD Challenge Winner',
+    subtitle: 'won 2nd place in L3Harris Challenge',
+    caption: '* Developed a full-stack React application with a team of 4 over 24 hours * Worked on hand drawing and developing the UI/UX for the mobile app while editing pages following Figma Design.' 
   },
   { img: highlight15, 
-    caption: 'won 2024 golden eagle ' 
+    title: '2024 UNT Golden Eagle Recipient',
+    subtitle: 'Awarded by UNT Department of Student Activities',
+    caption: 'the most prestigious award that UNT bestows on a student leader. The recipients show a tremendous commitment to co-curricular activities and enhancing campus life at UNT by engaging in considerable service and displaying great leadership, all while achieving excellence in the classroom.' 
   },
   { img: highlight9, 
-    caption: 'graduated ' 
+    title: 'Completed B.S. in Computer Engineering',
+    caption: '' 
   },
 ];
 
@@ -160,7 +184,9 @@ function About() {
           {slides.map((slide, index) => (
             <div key={index} className={`mySlides fade ${index === currentIndex ? 'active' : ''}`}>
               <img src={slide.img} alt={`Slide ${index}`} style={{ width: '100%' }} />
-              <div className="text">{slide.caption}</div>
+              <div className="About-slide-title">{slide.title}</div>
+              <div className="About-slide-subtitle">{slide.subtitle}</div>
+              <div className="About-slide-caption">{slide.caption}</div>
             </div>
           ))}
           <a className="prev" onClick={prevSlide}>&#10094;</a>
