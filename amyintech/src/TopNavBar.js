@@ -9,16 +9,16 @@ function TopNavBar() {
       setIsOpen(!isOpen);
     };
   return (
-    <Nav>
-      <div className='navbar'>
-        <Bars onClick={toggleMenu}/>
-        <NavMenu isOpen={isOpen}>
-            <NavLink to="/" onClick={() => setIsOpen(false)}> Home </NavLink>
-            <NavLink to="/About" activeStyle onClick={() => setIsOpen(false)}> About </NavLink>
-            <NavLink to="/Projects" activeStyle onClick={() => setIsOpen(false)}> Projects </NavLink>
+    <div className="navbar-container">
+      <Nav className="navbar">
+        <Bars onClick={toggleMenu} />
+        <NavMenu className="navbar-links" isOpen={isOpen}>
+          <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
+          <NavLink to="/About" activeStyle onClick={() => setIsOpen(false)}>About</NavLink>
+          <NavLink to="/Projects" activeStyle onClick={() => setIsOpen(false)}>Projects</NavLink>
         </NavMenu>
-      </div>
-    </Nav>
+      </Nav>
+    </div>
     );
 };
 
