@@ -7,7 +7,6 @@ import highlight1 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/h
 import highlight2 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight2.jpg';
 import highlight3 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight3.jpg';
 import highlight4 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight4.jpg';
-import highlight5 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight5.jpg';
 import highlight6 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight6.jpg';
 import highlight7 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight7.JPG';
 import highlight8 from '/Users/amyphan/Desktop/amyintechsite/amyintech/src/img/highlight8.JPG';
@@ -58,8 +57,7 @@ const slides = [
   { img: highlight3, 
     title: '2022 SASE Outstanding New Chapter',
     subtitle: 'Awarded by Society of Asian Scientists and Engineers (SASE) ',
-    caption: '* Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few.',
-    caption: '* Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement',
+    caption: '* Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few. * Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement',
   },
   { img: highlight4, 
     title: '2022 CodeForGood Hackathon Winner',
@@ -193,8 +191,8 @@ function About() {
               <div className="About-slide-caption">{slide.caption}</div>
             </div>
           ))}
-          <a className="prev" onClick={prevSlide}>&#10094;</a>
-          <a className="next" onClick={nextSlide}>&#10095;</a>
+          <button className="prev" onClick={prevSlide} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>&#10094;</button>
+          <button className="next" onClick={nextSlide} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>&#10095;</button>
           <div className="dots-container">
             {slides.map((_, index) => (
               <span
