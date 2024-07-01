@@ -73,27 +73,30 @@ const slides = [
   },
   { img: highlight7, 
     title: '2023 Software Engineer Intern at JPMC',
-    caption: '* accquired dream internship at JPMorgan Chase & Co.' 
+    subtitle: 'my 1st day at my dream internship',
+    caption: '* Established a backend testing system enabling 100% service automation for customer verification without disrupting user experience within 3 months. * Excelled as a problem-solver for cloud deployment and multithreading ensuring smoother and efficient operations of a testing application.' 
   },
   { img: highlight10, 
     title: '2023 Grace Hopper Scholar',
-    caption: '* attended GHC 2023 in Orlando, FL' 
+    caption: '* attended GHC 2023 in Orlando, FL * Received a scholarship that allows women and non-binary individuals who are undergraduate students, graduate students, or post-doctoral students to attend GHC 23 virtually * Gained access to career and academic workshops, networking opportunities, inspirational role models, and memories that will last a lifetime' 
   },
   { img: highlight11, 
     title: 'SASE Mental Health Initiative Team Member',
-    caption: 'participated in SASE Mental Health initiative' 
+    caption: '* participated in SASE Mental Health initiative * created monthly newsletters, social media posts, and support groups available for collegiate and professional SASE members.' 
   }, 
   { img: highlight12, 
     title: '2023-24 SASE South Regional Coordinator',
-    caption: 'SASE South Team' 
+    caption: '* Serve as a liaison to keep communications between the SASE National Board and advocate for 4 collegiate chapters. * Elevated growth and engagement in SASE mission by providing guidance and support to 4 university chapters; Embry-Riddle Aeronautical University (ERAU), University of Houston (UH), University of Miami (UM), and University of Oklahoma (OU)' 
   },
   { img: highlight14, 
     title: 'hosted Networking 101 workshop',
-    caption: 'led a workshop for students about networking' 
+    subtitle: 'at SASE South Central Regional Conference',
+    caption: '* led a workshop for students about networking at Texas A&M university * over 75+ students in attendance (many students were standing in the back)' 
   },
   { img: highlight16, 
-    title: 'Mentored and supported students at 4 SASE Chapters',
-    caption: '1 of my 4 schools that I mentored (OU)' 
+    title: 'Supported at 4 SASE South Chapters',
+    subtitle: '1 of my 4 schools that I mentored (OU)',
+    caption: '* mentored over 25+ students and advised 40+ students in leadership operations within chapters * supported the Univerity of Oklahoma (OU), University of Houston (UH), Embry-Riddle Aeronautics University (ERAU), and University of Miami (UM)' 
   },
   { img: highlight13, 
     title: 'WeHack UTD Challenge Winner',
@@ -103,11 +106,12 @@ const slides = [
   { img: highlight15, 
     title: '2024 UNT Golden Eagle Recipient',
     subtitle: 'Awarded by UNT Department of Student Activities',
-    caption: 'the most prestigious award that UNT bestows on a student leader. The recipients show a tremendous commitment to co-curricular activities and enhancing campus life at UNT by engaging in considerable service and displaying great leadership, all while achieving excellence in the classroom.' 
+    caption: '* the most prestigious award that UNT bestows on a student leader. The recipients show a tremendous commitment to co-curricular activities and enhancing campus life at UNT by engaging in considerable service and displaying great leadership, all while achieving excellence in the classroom.' 
   },
   { img: highlight9, 
     title: 'Completed B.S. in Computer Engineering',
-    caption: '' 
+    subtitle: 'from the University of North Texas',
+    caption: 'Key Highlights: * founded a new chapter of SASE at UNT * served as President for SASE UNT (2 yrs) * served as SASE South Regional Coordinator * served as Vice President for Engineers United (HackUNT) * made Dean’s List (multiple semesters) * 2022 UNT New Student Org of the Year * 2022 SASE Outstanding New Chapter * 2022 CodeForGood Hackathon Winner * 2023 James Carls Matthews President of the Year * 2023 SASE South Region Collegiate Star Honorable Mention * 2023 SWE Intern at JPMorgan Chase * 2023 Grace Hopper Celebration Scholar * 2024 WEHack Winner (2nd place L3Harris Challenge) * 2024 Golden Eagle Award Recipient ' 
   },
 ];
 
