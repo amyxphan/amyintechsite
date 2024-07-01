@@ -10,16 +10,16 @@ function TopNavBar() {
     };
   return (
     <Nav>
+      <div className='navbar'>
         <Bars onClick={toggleMenu}/>
         <NavMenu isOpen={isOpen}>
             <NavLink to="/" onClick={() => setIsOpen(false)}> Home </NavLink>
             <NavLink to="/About" activeStyle onClick={() => setIsOpen(false)}> About </NavLink>
             <NavLink to="/Projects" activeStyle onClick={() => setIsOpen(false)}> Projects </NavLink>
-      </NavMenu>
+        </NavMenu>
+      </div>
     </Nav>
     );
 };
-
-
 
 export default TopNavBar;
