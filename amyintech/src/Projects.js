@@ -1,6 +1,7 @@
 //Projects.js 
 import React, { useState, useEffect } from 'react';
 import './Projects.css'; 
+import CoastalDemo from './CoastalDemo.mp4';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
@@ -85,7 +86,7 @@ function Projects() {
         <div className="Projects-video-container">
           <div className="Projects-video">
             <video controls>
-              <source src="/Users/amyphan/Desktop/amyintechsite/amyintech/src/CoastalDemo.mp4" type="video/mp4" />
+              <source src={CoastalDemo} type="video/mp4" />
             </video>
           </div>
         </div>
