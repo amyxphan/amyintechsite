@@ -1,6 +1,8 @@
 //Projects.js 
 import React, { useState, useEffect } from 'react';
 import './Projects.css'; 
+
+//Porject Demos
 import CoastalDemo from './CoastalDemo.mp4';
 
 // typewwriter effect for intro
