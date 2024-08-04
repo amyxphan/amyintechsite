@@ -40,7 +40,7 @@ function Projects() {
         </p>
 
         <p className="Projects-video">
-          [insert video demo]
+          * video demo coming soon! *
         </p>
 
         <div className="Projects-description-container">
@@ -59,7 +59,7 @@ function Projects() {
         </p>
 
         <p className="Projects-usage">
-        used React Native JS, AWS Config, AWS DynamoDB, ESP32, and Ultrasonic Sensors
+        used React Native JS, AWS Config, AWS DynamoDB, AWS SES, ESP32, and Ultrasonic Sensors
         </p>
 
         <p className="Projects-video">
