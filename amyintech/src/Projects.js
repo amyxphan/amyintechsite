@@ -4,6 +4,7 @@ import './Projects.css';
 
 //Porject Demos
 import CoastalDemo from './CoastalDemo.mp4';
+import SmartParkingDemo from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/SmartParkingDemo.mp4'
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
@@ -62,9 +63,13 @@ function Projects() {
         used React Native JS, AWS Config, AWS DynamoDB, AWS SES, ESP32, and Ultrasonic Sensors
         </p>
 
-        <p className="Projects-video">
-          [insert video demo]
-        </p>
+        <div className="Projects-video-container">
+          <div className="Projects-video">
+            <video controls>
+              <source src={SmartParkingDemo} type="video/mp4" />
+            </video>
+          </div>
+        </div>
 
         <div className="Projects-description-container">
           <p className="Projects-description">
