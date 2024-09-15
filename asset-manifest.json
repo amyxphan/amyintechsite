@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/amyintechsite/static/css/main.d3d21a7b.css",
+    "main.js": "/amyintechsite/static/js/main.eb2b2621.js",
+    "static/media/AmyintechDemo.mp4": "/amyintechsite/static/media/AmyintechDemo.3808e14cdf30c998ceef.mp4",
+    "static/media/SmartParkingDemo.mp4": "/amyintechsite/static/media/SmartParkingDemo.776ca0061cf12533ac81.mp4",
+    "static/media/CoastalDemo.mp4": "/amyintechsite/static/media/CoastalDemo.dd26465cddec86e436d0.mp4",
+    "static/media/pfp.jpg": "/amyintechsite/static/media/pfp.d2cf1e49ad01461ec983.jpg",
+    "static/media/about1.jpg": "/amyintechsite/static/media/about1.1f899f042ac015f3232e.jpg",
+    "static/media/highlight2.jpg": "/amyintechsite/static/media/highlight2.159c6ecdffe3aacceb0e.jpg",
+    "static/media/highlight14.jpg": "/amyintechsite/static/media/highlight14.08b2ae2d2377e4a60369.jpg",
+    "static/media/highlight3.jpg": "/amyintechsite/static/media/highlight3.c574ae96606b2aae0c8b.jpg",
+    "static/media/highlight7.JPG": "/amyintechsite/static/media/highlight7.7c3e15414a50c69c2e3d.JPG",
+    "static/media/highlight1.JPG": "/amyintechsite/static/media/highlight1.7aeb7ad9006e3f53b03b.JPG",
+    "static/media/highlight12.JPG": "/amyintechsite/static/media/highlight12.7fa8e11f7f3827cd2b5b.JPG",
+    "static/media/highlight8.JPG": "/amyintechsite/static/media/highlight8.06755babf4bf2c3e8397.JPG",
+    "static/media/highlight16.JPG": "/amyintechsite/static/media/highlight16.aa1974a0036894a61ae3.JPG",
+    "static/media/highlight11.JPG": "/amyintechsite/static/media/highlight11.f81c5ba071cae0e9f740.JPG",
+    "static/media/highlight9.JPG": "/amyintechsite/static/media/highlight9.9c5946c839b3404d8b75.JPG",
+    "static/media/highlight15.jpg": "/amyintechsite/static/media/highlight15.2fd2715c233886e250d2.jpg",
+    "static/media/highlight10.JPG": "/amyintechsite/static/media/highlight10.2f14337f575594986f73.JPG",
+    "static/media/highlight4.jpg": "/amyintechsite/static/media/highlight4.cd4e70a3bf358c9f26d1.jpg",
+    "static/media/highlight6.jpg": "/amyintechsite/static/media/highlight6.e95b0350fc2277c74e98.jpg",
+    "static/media/highlight13.JPG": "/amyintechsite/static/media/highlight13.eb4365faf2fbfcd86915.JPG",
+    "static/media/AmyPhanResumeJune2024.pdf": "/amyintechsite/static/media/AmyPhanResumeJune2024.0b6f368956ee47362bc3.pdf",
+    "index.html": "/amyintechsite/index.html",
+    "main.d3d21a7b.css.map": "/amyintechsite/static/css/main.d3d21a7b.css.map",
+    "main.eb2b2621.js.map": "/amyintechsite/static/js/main.eb2b2621.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3d21a7b.css",
+    "static/js/main.eb2b2621.js"
+  ]
+}
