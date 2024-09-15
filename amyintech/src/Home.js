@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 
-import pfp from '/Users/amyphan/Desktop/amyintechsite/src/img/pfp.jpg';
-import AmyPhanResumeJune2024 from '/Users/amyphan/Desktop/amyintechsite/src/AmyPhanResumeJune2024.pdf'
+import pfp from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/pfp.jpg';
+import AmyPhanResumeJune2024 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/AmyPhanResumeJune2024.pdf'
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
