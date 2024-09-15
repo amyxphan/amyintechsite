@@ -2,22 +2,22 @@ import React, { useState, useEffect } from 'react';
 import './About.css'; 
 
 //importing photos
-import about1 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/about1.jpg';
-import highlight1 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight1.JPG';
-import highlight2 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight2.jpg';
-import highlight3 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight3.jpg';
-import highlight4 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight4.jpg';
-import highlight6 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight6.jpg';
-import highlight7 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight7.JPG';
-import highlight8 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight8.JPG';
-import highlight9 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight9.JPG';
-import highlight10 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight10.JPG';
-import highlight11 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight11.JPG'; 
-import highlight12 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight12.JPG';
-import highlight13 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight13.JPG';
-import highlight14 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight14.jpg';
-import highlight15 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight15.jpg';
-import highlight16 from '/Users/amyphan/Desktop/amyintech/amyintechsite/amyintech/src/img/highlight16.JPG';
+import about1 from '/Users/amyphan/Desktop/amyintechsite/src/about1.jpg';
+import highlight1 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight1.JPG';
+import highlight2 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight2.jpg';
+import highlight3 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight3.jpg';
+import highlight4 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight4.jpg';
+import highlight6 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight6.jpg';
+import highlight7 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight7.JPG';
+import highlight8 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight8.JPG';
+import highlight9 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight9.JPG';
+import highlight10 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight10.JPG';
+import highlight11 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight11.JPG'; 
+import highlight12 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight12.JPG';
+import highlight13 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight13.JPG';
+import highlight14 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight14.jpg';
+import highlight15 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight15.jpg';
+import highlight16 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight16.JPG';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
