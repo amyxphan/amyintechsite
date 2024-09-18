@@ -1,7 +1,6 @@
 {
   "name": "amyintech",
   "version": "0.1.0",
-  "homepage": "https://amyxphan.github.io/amyintechsite",
   "private": true,
   "main": "index.js",
   "scripts": {
