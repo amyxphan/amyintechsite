@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './About.css'; 
 
 //importing photos
-import about1 from '/Users/amyphan/Desktop/amyintechsite/src/about1.jpg';
+import about1 from '/Users/amyphan/Desktop/amyintechsite/src/img/about1.jpg';
 import highlight1 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight1.JPG';
 import highlight2 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight2.jpg';
 import highlight3 from '/Users/amyphan/Desktop/amyintechsite/src/img/highlight3.jpg';
