@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 
-import pfp from '/Users/amyphan/Desktop/amyintechsite/src/img/pfp.jpg';
+// import pfp from '/Users/amyphan/Desktop/amyintechsite/src/img/pfp.jpg';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
@@ -28,7 +28,7 @@ function Home() {
         <p className="Home-intro">
           $ <Typewriter text="print(Hello World! I'm Amy Phan.)" />
         </p>
-        <img src={pfp} className="Home-logo" alt="" />
+        <img src="/pfp.jpg" className="Home-logo" alt="" />
 
         {/* hyperlink socials  */}
           <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "40px" }}>
