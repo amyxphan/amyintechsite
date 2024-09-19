@@ -4,8 +4,8 @@ import './Projects.css';
 
 //Porject Demos
 import CoastalDemo from './CoastalDemo.mp4';
-import SmartParkingDemo from '/Users/amyphan/Desktop/amyintechsite/src/SmartParkingDemo.mp4';
-import AmyintechDemo from '/Users/amyphan/Desktop/amyintechsite/src/AmyintechDemo.mp4';
+import SmartParkingDemo from './public/SmartParkingDemo.mp4';
+import AmyintechDemo from './public/AmyintechDemo.mp4';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
