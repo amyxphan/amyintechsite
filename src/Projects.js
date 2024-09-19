@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './Projects.css'; 
 
 //Porject Demos
-import CoastalDemo from './CoastalDemo.mp4';
+import CoastalDemo from './public/CoastalDemo.mp4';
 import SmartParkingDemo from './public/SmartParkingDemo.mp4';
 import AmyintechDemo from './public/AmyintechDemo.mp4';
 
