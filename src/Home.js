@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Home.css';
 
 import pfp from '/Users/amyphan/Desktop/amyintechsite/src/img/pfp.jpg';
-// import AmyPhanResumeJune2024 from '/Users/amyphan/Desktop/amyintechsite/public/AmyPhanResumeJune2024.pdf';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
@@ -51,7 +50,7 @@ function Home() {
             </a>
             <a
             className="Home-link"
-            href="/AmyPhanResumeJune2024.pdf"
+            href="https://drive.google.com/file/d/1k1ogiOiNYiX0WmqhkyXvqSYDBRostnAI/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
