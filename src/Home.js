@@ -51,7 +51,7 @@ function Home() {
             </a>
             <a
             className="Home-link"
-            src="/AmyPhanResumeJune2024.pdf"
+            href="/AmyPhanResumeJune2024.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
