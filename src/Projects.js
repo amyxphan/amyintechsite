@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import './Projects.css'; 
 
 //Porject Demos
-import CoastalDemo from './public/CoastalDemo.mp4';
-import SmartParkingDemo from './public/SmartParkingDemo.mp4';
-import AmyintechDemo from './public/AmyintechDemo.mp4';
+// import CoastalDemo from './public/CoastalDemo.mp4';
+// import SmartParkingDemo from './public/SmartParkingDemo.mp4';
+// import AmyintechDemo from './public/AmyintechDemo.mp4';
 
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
