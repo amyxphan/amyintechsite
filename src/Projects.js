@@ -66,9 +66,7 @@ function Projects() {
 
         <div className="Projects-video-container">
           <div className="Projects-video">
-            <video controls>
-              <source src={SmartParkingDemo} type="video/mp4" />
-            </video>
+          <video src="/SmartParkingDemo.mp4" controls />
           </div>
         </div>
 
@@ -93,9 +91,7 @@ function Projects() {
 
         <div className="Projects-video-container">
           <div className="Projects-video">
-            <video controls>
-              <source src={CoastalDemo} type="video/mp4" />
-            </video>
+          <video src="/CoastalDemo.mp4" controls />
           </div>
         </div>
 
@@ -121,9 +117,7 @@ function Projects() {
 
         <div className="Projects-video-container">
           <div className="Projects-video">
-            <video controls>
-              <source src={AmyintechDemo} type="video/mp4" />
-            </video>
+          <video src="/AmyintechDemo.mp4" controls />
           </div>
         </div>
 
