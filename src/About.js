@@ -138,7 +138,7 @@ function About() {
 
       <div className="About-intro-container">
 
-        <img src="/about1" className="About-photo" alt="" />
+        <img src="about1.jpg" className="About-photo" alt="" />
 
         <div className="About-intro-des">
           <h1 className="About-subtitle">
