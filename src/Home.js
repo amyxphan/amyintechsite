@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 
-// import pfp from '/Users/amyphan/Desktop/amyintechsite/src/img/pfp.jpg';
-
 // typewwriter effect for intro
 const Typewriter = ({ text, speed = 150 }) => {
   const [displayedText, setDisplayedText] = useState('');
