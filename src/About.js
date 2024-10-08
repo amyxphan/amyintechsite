@@ -152,8 +152,8 @@ function About() {
         ranked varsity girl’s basketball team. I attended the University of North Texas, earning a 
         B.S. in Computer Engineering. During my time there, I founded the Society of Asian Scientists
          and Engineers (SASE) and spent my free time learning computer science concepts beyond my 
-         formal studies. After graduation, I will join JPMorgan Chase & Co. as a Software Engineer. 
-         In my free time, I enjoy hiking, pilates, playing with my pet hamster, and taking care of my 
+         formal studies. After graduation, I returned to JPMorgan Chase & Co. as a full-time Software Engineer. 
+         In my free time, I enjoy hiking, pilates, playing with my pet hamster Mochi, and taking care of my 
          plants. I am passionate about accessibility and aim to create innovative solutions that 
          bridge gaps and drive positive change in the tech industry.
         </p>
