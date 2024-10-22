@@ -49,6 +49,32 @@ function Projects() {
           </p>
         </div>
 
+        <p className="Projects-subtitle">
+          Sorcerers Sprouts
+        </p>
+
+        <p className="Projects-usage">
+          using React and Firebase
+        </p>
+
+        <div className="Projects-video-container">
+          <div className="Projects-video">
+          <video src="https://www.youtube.com/watch?v=o1L8Yk3u_V8" controls />
+          </div>
+        </div>
+
+        <div className="Projects-description-container">
+          <p className="Projects-description">
+          Sorcerer's Sprouts is an enchanted forest-themed app that allows users (freshmen) to foster a community 
+          as they embark on their college journey with captivating hand-drawn UI/UX designs, our platform offers 
+          an immersive experience. We can build this community by creating a set of questions and setting the 
+          user's responses in a 3D data virtualization model to match students together seamlessly. By analyzing 
+          and comparing responses, we create meaningful connections that transcend the ordinary, guiding freshmen 
+          through their college transition with confidence. This project won 2nd place at the 2024 WEHack UTD hackathon 
+          for the L3Harris Challenge.
+          </p>
+        </div>
+
 
         <p className="Projects-subtitle">
           SmartParking
