@@ -132,7 +132,7 @@ function Projects() {
         </p>
 
         <p className="Projects-description">
-          used HTML and CSS (recently migrating to React!) 
+          using React and JavaScript
         </p>
 
         <div className="Projects-video-container">
