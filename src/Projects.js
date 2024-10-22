@@ -65,13 +65,12 @@ function Projects() {
 
         <div className="Projects-description-container">
           <p className="Projects-description">
-          Sorcerer's Sprouts is an enchanted forest-themed app that allows users (freshmen) to foster a community 
-          as they embark on their college journey with captivating hand-drawn UI/UX designs, our platform offers 
-          an immersive experience. We can build this community by creating a set of questions and setting the 
-          user's responses in a 3D data virtualization model to match students together seamlessly. By analyzing 
-          and comparing responses, we create meaningful connections that transcend the ordinary, guiding freshmen 
-          through their college transition with confidence. This project won 2nd place at the 2024 WEHack UTD hackathon 
-          for the L3Harris Challenge.
+          Sorcerer's Sprouts is an enchanted forest-themed app that helps freshmen build community through immersive 
+          hand-drawn designs and a 3D data model that matches students based on their responses to a set of curated 
+          questions, fostering meaningful connections for a confident college transition. In this project, I was the main 
+          UI/UX designer, I spent majority of my time handdrawing and animating each component on the screen by hand on my 
+          iPad and helping my teammates troubleshoot any frontend problems that would come up. At the end of the hackathon, 
+          this project won 2nd place at the 2024 WEHack UTD hackathon for the L3Harris Challenge.
           </p>
         </div>
 
