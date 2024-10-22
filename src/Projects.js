@@ -54,12 +54,17 @@ function Projects() {
         </p>
 
         <p className="Projects-usage">
-          using React and Firebase
+          used React and Firebase
         </p>
 
         <div className="Projects-video-container">
           <div className="Projects-video">
-          <video src="https://www.youtube.com/watch?v=o1L8Yk3u_V8" controls />
+            <iframe 
+              src="https://www.youtube.com/embed/o1L8Yk3u_V8" 
+              title="Sorcerers Sprouts Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen>
+            </iframe>
           </div>
         </div>
 

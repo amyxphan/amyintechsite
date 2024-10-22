@@ -44,10 +44,16 @@
     display: flex;
     justify-content: center;
     padding: 0 15%;
+    width: 100%;
     box-sizing: border-box;
   }
 
   .Projects-video video {
+    width: 100%;
+    height: 450px;
+  }
+
+  .Projects-video iframe {
     width: 100%;
     height: 450px;
   }
