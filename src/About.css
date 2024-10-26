@@ -114,8 +114,7 @@
   justify-content: center;
 }
 
-
-.About-slide-caption {
+.About-slide-subheader {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #f2f2f2;
   font-size: 15px;
@@ -123,8 +122,24 @@
   position: absolute;
   width: 100%;
   text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.About-slide-caption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding-top: 40px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
   }
-  
+
+.About-slide-caption-item {
+  margin-bottom: 5px; /* Adds space between caption items */
+}
+
   .prev, .next {
     cursor: pointer;
     position: absolute;

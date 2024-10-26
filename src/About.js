@@ -91,7 +91,8 @@ const slides = [
   { img: "highlight9.JPG", 
     title: 'Completed B.S. in Computer Engineering',
     subtitle: 'from the University of North Texas',
-    caption: 'Key Highlights: • founded a new chapter of SASE at UNT • served as President for SASE UNT (2 yrs) • served as SASE South Regional Coordinator • served as Vice President for Engineers United (HackUNT) • made Dean’s List (multiple semesters) • 2022 UNT New Student Org of the Year • 2022 SASE Outstanding New Chapter • 2022 CodeForGood Hackathon Winner • 2023 James Carls Matthews President of the Year • 2023 SASE South Region Collegiate Star Honorable Mention • 2023 SWE Intern at JPMorgan Chase • 2023 Grace Hopper Celebration Scholar • 2024 WEHack Winner (2nd place L3Harris Challenge) • 2024 Golden Eagle Award Recipient ' 
+    subheader: 'Key Highlights:',
+    caption: '• founded a new chapter of SASE at UNT • served as President for SASE UNT (2 yrs) • served as SASE South Regional Coordinator • served as Vice President for Engineers United (HackUNT) • made Dean’s List (multiple semesters) • 2022 UNT New Student Org of the Year • 2022 SASE Outstanding New Chapter • 2022 CodeForGood Hackathon Winner • 2023 James Carls Matthews President of the Year • 2023 SASE South Region Collegiate Star Honorable Mention • 2023 SWE Intern at JPMorgan Chase • 2023 Grace Hopper Celebration Scholar • 2024 WEHack Winner (2nd place L3Harris Challenge) • 2024 Golden Eagle Award Recipient ' 
   },
 ];
 
@@ -165,20 +166,23 @@ function About() {
         </h1>
 
         <div className="About-slideshow-container">
-          {slides.map((slide, index) => (
-            <div key={index} className={`mySlides fade ${index === currentIndex ? 'active' : ''}`}>
-              <img src={slide.img} alt={`Slide ${index}`} style={{ width: '100%' }} />
-              <div className="About-slide-title">{slide.title}</div>
-              <div className="About-slide-subtitle">{slide.subtitle}</div>
-              <div className="About-slide-caption">
-                {slide.caption.split('•').map((part, idx) => (
-                  <div key={idx}>
-                    • {part.trim()}
+        {slides.map((slide, index) => (
+          <div key={index} className={`mySlides fade ${index === currentIndex ? 'active' : ''}`}>
+            <img src={slide.img} alt={`Slide ${index}`} style={{ width: '100%' }} />
+            <div className="About-slide-title">{slide.title}</div>
+            <div className="About-slide-subtitle">{slide.subtitle}</div>
+            <div className="About-slide-subheader">{slide.subheader}</div>
+            <div className="About-slide-caption">
+              {slide.caption.split('•').map((part, idx) => (
+                part.trim() && (
+                  <div key={idx} className="About-slide-caption-item">
+                    {idx === 0 ? part.trim() : `• ${part.trim()}`}
                   </div>
-                ))}
-              </div>
+                )
+              ))}
             </div>
-          ))}
+          </div>
+        ))}
           <button className="prev" onClick={prevSlide} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>&#10094;</button>
           <button className="next" onClick={nextSlide} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>&#10095;</button>
           <div className="dots-container">
