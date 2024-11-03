@@ -73,7 +73,7 @@ function Projects() {
           Sorcerer's Sprouts is an enchanted forest-themed app that helps freshmen build community through immersive 
           hand-drawn designs and a 3D data model that matches students based on their responses to a set of curated 
           questions, fostering meaningful connections for a confident college transition. In this project, I was the main 
-          UI/UX designer, I spent majority of my time handdrawing and animating each component on the screen by hand on my 
+          UI/UX designer, where I spent majority of my time handdrawing and animating each component on the screen by hand on my 
           iPad and helping my teammates troubleshoot any frontend problems that would come up. At the end of the hackathon, 
           this project won 2nd place at the 2024 WEHack UTD hackathon for the L3Harris Challenge.
           </p>
