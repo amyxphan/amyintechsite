@@ -44,8 +44,8 @@ function Projects() {
             TherapyTouch is a mobile app that I am currently working on to create an 
             all-in-one mental health app that allows users to recieve live help, journal, 
             view their journey, and meditate. In this project, I hope to be able to learn 
-            more about mental health issues and create a product that's accessible for users 
-            to use and get help.
+            more about mental health issues, tune into my love for UI/UX with handdrawn componests, 
+            and create a product that's accessible for users to use and get help.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ function Projects() {
         <div className="Projects-description-container">
           <p className="Projects-description">
             Smart Parking is a hardware device and mobile app to provide real-time updates 
-            on parking space availability, integrating accessible features like a heatmap 
+            on parking space availability, integrating accessible features such as a heatmap 
             and AI/ML-driven parking lot occupancy predictions. This was my senior year group 
             project for my final year in undergrad where I contributed as the lead UI/UX and 
             software developer in all mobile application operations, while connecting both 
