@@ -24,69 +24,69 @@ const slides = [
   { img: "highlight1.JPG",
     title: '2022 New Student Organization of the Year',
     subtitle: 'Awarded by UNT Department of Student Activities',
-    caption: ' Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
+    caption: '• Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
   },
   { img: "highlight2.jpg", 
     title: '2022 UNT Brick Ceremony',
     subtitle: 'Awarded by UNT Department of Student Activities',
-    caption: ' Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
+    caption: '• Honors a newly created student organization that has contributed excellent service and leadership to the University community or constituent group' 
   },
   { img: "highlight6.jpg", 
     title: 'UNT SASE First General Meeting',
     subtitle: 'collaboration with SHPE, NSBE, and American Airlines',
-    caption: ' UNT SASE first ever meeting as a chapter, we had over 45+ engineering students in attendance at this meeting' 
+    caption: '• UNT SASE first ever meeting as a chapter, we had over 45+ engineering students in attendance at this meeting' 
   },
   { img: "highlight3.jpg", 
     title: '2022 SASE Outstanding New Chapter',
     subtitle: 'Awarded by Society of Asian Scientists and Engineers (SASE) ',
-    caption: ' Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few. • Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement',
+    caption: '• Recognize chapters and student leaders around the nation who have gone above and beyond the call of duty over their recognized year. These chapters are acknowledged in professional development, cultural awareness, diversity, community involvement, impact of events, initiatives, and member engagement to name a few. • Awarded to the chapter that made outstanding contributions and advancements of SASEs mission statement',
   },
   { img: "highlight4.jpg", 
     title: '2022 CodeForGood Hackathon Winner',
     subtitle: 'Awarded by JPMorgan Chase & Co. (Plano, TX)',
-    caption: ' Generated a website and mobile application to help Education to Employment Partners (non-profit) expand their mission to help expand Coastal Compass programming to residents of the rural areas of the Coastal Bend.',
+    caption: '• Generated a website and mobile application to help Education to Employment Partners (non-profit) expand their mission to help expand Coastal Compass programming to residents of the rural areas of the Coastal Bend.',
   },
   { img: "highlight8.JPG", 
     title: '2023 President of the Year',
     subtitle: 'Awarded by UNT Department of Student Activities',
-    caption: ' Honors a president (out of 450+) who has demonstrated a high level of leadership and involvement in their organization' 
+    caption: '• Honors a president (out of 450+) who has demonstrated a high level of leadership and involvement in their organization' 
   },
   { img: "highlight7.JPG", 
     title: '2023 Software Engineer Intern at JPMC',
     subtitle: 'my 1st day at my dream internship',
-    caption: ' Established a backend testing system enabling 100% service automation for customer verification without disrupting user experience within 3 months. • Excelled as a problem-solver for cloud deployment and multithreading ensuring smoother and efficient operations of a testing application.' 
+    caption: '• Established a backend testing system enabling 100% service automation for customer verification without disrupting user experience within 3 months. • Excelled as a problem-solver for cloud deployment and multithreading ensuring smoother and efficient operations of a testing application.' 
   },
   { img: "highlight10.JPG", 
     title: '2023 Grace Hopper Scholar',
-    caption: ' attended GHC 2023 in Orlando, FL • Received a scholarship that allows women and non-binary individuals who are undergraduate students, graduate students, or post-doctoral students to attend GHC 23 virtually • Gained access to career and academic workshops, networking opportunities, inspirational role models, and memories that will last a lifetime' 
+    caption: '• attended GHC 2023 in Orlando, FL • Received a scholarship that allows women and non-binary individuals who are undergraduate students, graduate students, or post-doctoral students to attend GHC 23 virtually • Gained access to career and academic workshops, networking opportunities, inspirational role models, and memories that will last a lifetime' 
   },
   { img: "highlight11.JPG", 
     title: 'SASE Mental Health Initiative Team Member',
-    caption: ' participated in SASE Mental Health initiative • created monthly newsletters, social media posts, and support groups available for collegiate and professional SASE members.' 
+    caption: '• participated in SASE Mental Health initiative • created monthly newsletters, social media posts, and support groups available for collegiate and professional SASE members.' 
   }, 
   { img: "highlight12.JPG", 
     title: '2023-24 SASE South Regional Coordinator',
-    caption: ' Serve as a liaison to keep communications between the SASE National Board and advocate for 4 collegiate chapters. • Elevated growth and engagement in SASE mission by providing guidance and support to 4 university chapters; Embry-Riddle Aeronautical University (ERAU), University of Houston (UH), University of Miami (UM), and University of Oklahoma (OU)' 
+    caption: '• Serve as a liaison to keep communications between the SASE National Board and advocate for 4 collegiate chapters. • Elevated growth and engagement in SASE mission by providing guidance and support to 4 university chapters; Embry-Riddle Aeronautical University (ERAU), University of Houston (UH), University of Miami (UM), and University of Oklahoma (OU)' 
   },
   { img: "highlight14.jpg", 
     title: 'hosted Networking 101 workshop',
     subtitle: 'at SASE South Central Regional Conference',
-    caption: ' led a workshop for students about networking at Texas A&M university • over 75+ students in attendance (many students were standing in the back)' 
+    caption: '• led a workshop for students about networking at Texas A&M university • over 75+ students in attendance (many students were standing in the back)' 
   },
   { img: "highlight16.JPG", 
     title: 'Supported at 4 SASE South Chapters',
     subtitle: '1 of my 4 schools that I mentored (OU)',
-    caption: ' mentored over 25+ students and advised 40+ students in leadership operations within chapters • supported the Univerity of Oklahoma (OU), University of Houston (UH), Embry-Riddle Aeronautics University (ERAU), and University of Miami (UM)' 
+    caption: '• mentored over 25+ students and advised 40+ students in leadership operations within chapters • supported the Univerity of Oklahoma (OU), University of Houston (UH), Embry-Riddle Aeronautics University (ERAU), and University of Miami (UM)' 
   },
   { img: "highlight13.JPG", 
     title: 'WeHack UTD Challenge Winner',
     subtitle: 'won 2nd place in L3Harris Challenge',
-    caption: ' Developed a full-stack React application with a team of 4 over 24 hours • Worked on hand drawing and developing the UI/UX for the mobile app while editing pages following Figma Design.' 
+    caption: '• Developed a full-stack React application with a team of 4 over 24 hours • Worked on hand drawing and developing the UI/UX for the mobile app while editing pages following Figma Design.' 
   },
   { img: "highlight15.jpg", 
     title: '2024 UNT Golden Eagle Recipient',
     subtitle: 'Awarded by UNT Department of Student Activities',
-    caption: ' the most prestigious award that UNT bestows on a student leader. The recipients show a tremendous commitment to co-curricular activities and enhancing campus life at UNT by engaging in considerable service and displaying great leadership, all while achieving excellence in the classroom.' 
+    caption: '• the most prestigious award that UNT bestows on a student leader. The recipients show a tremendous commitment to co-curricular activities and enhancing campus life at UNT by engaging in considerable service and displaying great leadership, all while achieving excellence in the classroom.' 
   },
   { img: "highlight9.JPG", 
     title: 'Completed B.S. in Computer Engineering',
