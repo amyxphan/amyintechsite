@@ -58,14 +58,17 @@ const slides = [
   },
   { img: "highlight10.JPG", 
     title: '2023 Grace Hopper Scholar',
-    caption: '• attended GHC 2023 in Orlando, FL • Received a scholarship that allows women and non-binary individuals who are undergraduate students, graduate students, or post-doctoral students to attend GHC 23 virtually • Gained access to career and academic workshops, networking opportunities, inspirational role models, and memories that will last a lifetime' 
+    subtitle: 'attended GHC 2023 in Orlando, FL',
+    caption: '• Received a scholarship that allows women and non-binary individuals who are undergraduate students, graduate students, or post-doctoral students to attend GHC 23 virtually • Gained access to career and academic workshops, networking opportunities, inspirational role models, and memories that will last a lifetime' 
   },
   { img: "highlight11.JPG", 
     title: 'SASE Mental Health Initiative Team Member',
+    subtitle: 'SASE Mental Health Initiative team at the 2023 SASE National Convention',
     caption: '• participated in SASE Mental Health initiative • created monthly newsletters, social media posts, and support groups available for collegiate and professional SASE members.' 
   }, 
   { img: "highlight12.JPG", 
     title: '2023-24 SASE South Regional Coordinator',
+    subtitle: 'SASE South Team at Regional Conference (located at Texas A&M University)',
     caption: '• Serve as a liaison to keep communications between the SASE National Board and advocate for 4 collegiate chapters. • Elevated growth and engagement in SASE mission by providing guidance and support to 4 university chapters; Embry-Riddle Aeronautical University (ERAU), University of Houston (UH), University of Miami (UM), and University of Oklahoma (OU)' 
   },
   { img: "highlight14.jpg", 
