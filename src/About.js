@@ -68,7 +68,7 @@ const slides = [
   }, 
   { img: "highlight12.JPG", 
     title: '2023-24 SASE South Regional Coordinator',
-    subtitle: 'SASE South Team at Regional Conference (located at Texas A&M University)',
+    subtitle: 'SASE South Team at Regional Conference (Texas A&M University)',
     caption: '• Serve as a liaison to keep communications between the SASE National Board and advocate for 4 collegiate chapters. • Elevated growth and engagement in SASE mission by providing guidance and support to 4 university chapters; Embry-Riddle Aeronautical University (ERAU), University of Houston (UH), University of Miami (UM), and University of Oklahoma (OU)' 
   },
   { img: "highlight14.jpg", 
