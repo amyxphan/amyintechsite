@@ -33,7 +33,7 @@ const slides = [
   },
   { img: "highlight6.jpg", 
     title: 'UNT SASE First General Meeting',
-    subtitle: 'collaboration with SHPE, NSBE, and American Airlines',
+    subtitle: 'Collaboration with SHPE, NSBE, and American Airlines',
     caption: '• UNT SASE first ever meeting as a chapter, we had over 45+ engineering students in attendance at this meeting' 
   },
   { img: "highlight3.jpg", 
@@ -53,12 +53,12 @@ const slides = [
   },
   { img: "highlight7.JPG", 
     title: '2023 Software Engineer Intern at JPMC',
-    subtitle: 'my 1st day at my dream internship',
+    subtitle: 'My 1st day at my dream internship',
     caption: '• Established a backend testing system enabling 100% service automation for customer verification without disrupting user experience within 3 months. • Excelled as a problem-solver for cloud deployment and multithreading ensuring smoother and efficient operations of a testing application.' 
   },
   { img: "highlight10.JPG", 
     title: '2023 Grace Hopper Scholar',
-    subtitle: 'attended GHC 2023 in Orlando, FL',
+    subtitle: 'Attended GHC 2023 in Orlando, FL',
     caption: '• Received a scholarship that allows women and non-binary individuals who are undergraduate students, graduate students, or post-doctoral students to attend GHC 23 virtually • Gained access to career and academic workshops, networking opportunities, inspirational role models, and memories that will last a lifetime' 
   },
   { img: "highlight11.JPG", 
@@ -72,7 +72,7 @@ const slides = [
     caption: '• Serve as a liaison to keep communications between the SASE National Board and advocate for 4 collegiate chapters. • Elevated growth and engagement in SASE mission by providing guidance and support to 4 university chapters; Embry-Riddle Aeronautical University (ERAU), University of Houston (UH), University of Miami (UM), and University of Oklahoma (OU)' 
   },
   { img: "highlight14.jpg", 
-    title: 'hosted Networking 101 workshop',
+    title: 'Hosted Networking 101 workshop',
     subtitle: 'at SASE South Central Regional Conference',
     caption: '• led a workshop for students about networking at Texas A&M university • over 75+ students in attendance (many students were standing in the back)' 
   },
@@ -83,7 +83,7 @@ const slides = [
   },
   { img: "highlight13.JPG", 
     title: 'WeHack UTD Challenge Winner',
-    subtitle: 'won 2nd place in L3Harris Challenge',
+    subtitle: 'Won 2nd place in L3Harris Challenge',
     caption: '• Developed a full-stack React application with a team of 4 over 24 hours • Worked on hand drawing and developing the UI/UX for the mobile app while editing pages following Figma Design.' 
   },
   { img: "highlight15.jpg", 
@@ -93,7 +93,7 @@ const slides = [
   },
   { img: "highlight9.JPG", 
     title: 'Completed B.S. in Computer Engineering',
-    subtitle: 'from the University of North Texas',
+    subtitle: 'From the University of North Texas',
     subheader: 'Key Highlights:',
     caption: '• founded a new chapter of SASE at UNT • served as President for SASE UNT (2 yrs) • served as SASE South Regional Coordinator • served as Vice President for Engineers United (HackUNT) • made Dean’s List (multiple semesters) • 2022 UNT New Student Org of the Year • 2022 SASE Outstanding New Chapter • 2022 CodeForGood Hackathon Winner • 2023 James Carls Matthews President of the Year • 2023 SASE South Region Collegiate Star Honorable Mention • 2023 SWE Intern at JPMorgan Chase • 2023 Grace Hopper Celebration Scholar • 2024 WEHack Winner (2nd place L3Harris Challenge) • 2024 Golden Eagle Award Recipient ' 
   },
