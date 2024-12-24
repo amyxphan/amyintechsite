@@ -135,7 +135,7 @@ function Projects() {
           amyintech (this website!)
         </p>
 
-        <p className="Projects-description">
+        <p className="Projects-usage">
           using React and JavaScript
         </p>
 
