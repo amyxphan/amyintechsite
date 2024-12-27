@@ -47,7 +47,7 @@ function Projects() {
             all-in-one mental health app that allows users to recieve live help, journal, 
             view their journey, and meditate. In this project, I hope to be able to learn 
             more about mental health issues, tune into my love for UI/UX with handdrawn componests, 
-            and create a product that's accessible for users to use and get help.
+            and create a product that's accessible for users to use and get the help they need.
           </p>
         </div>
 
