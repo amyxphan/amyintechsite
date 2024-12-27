@@ -35,9 +35,11 @@ function Projects() {
           using Swift and Swift UI
         </p>
 
-        <p className="Projects-video">
-          * video demo coming soon! *
-        </p>
+        <div className="Projects-video-container">
+          <div className="Projects-video">
+          <video src="/TherapyTouchWIPDemo.mp4" controls />
+          </div>
+        </div>
 
         <div className="Projects-description-container">
           <p className="Projects-description">
