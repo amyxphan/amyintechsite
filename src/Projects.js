@@ -61,12 +61,7 @@ function Projects() {
 
         <div className="Projects-video-container">
           <div className="Projects-video">
-            <iframe 
-              src="https://www.youtube.com/embed/o1L8Yk3u_V8" 
-              title="Sorcerers Sprouts Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen>
-            </iframe>
+          <video src="/SorcererSproutsDemo.mp4" controls />
           </div>
         </div>
 
