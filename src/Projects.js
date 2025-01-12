@@ -32,7 +32,7 @@ function Projects() {
         </p>
 
         <p className="Projects-usage">
-          using Swift and Swift UI
+          using Swift and SwiftUI
         </p>
 
         <div className="Projects-video-container">
