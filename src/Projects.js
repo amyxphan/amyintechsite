@@ -51,6 +51,30 @@ function Projects() {
           </p>
         </div>
 
+        <div className="Projects-hyperlinks">
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "10px" }}>
+              <a
+                className="Home-link"
+                href="https://www.figma.com/design/vFrlfsKvwxBPJ1OaE7abzE/Mental-Health?node-id=0-1&t=4HIJvzuovi5qlCVi-1"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src="/figma.png" alt="" style={{ height: '50px', paddingRight: "4px" }} />
+              </a>
+              {/* TRY IT OUT COMING SOON */}
+              {/* <a
+                className="Home-link"
+                href="https://www.linkedin.com/in/amyphan2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/try.png" alt="" style={{ height: '50px' }} />
+              </a> */}
+            </div>
+        </div>
+
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingBottom: "40px" }}></div>
+
         <p className="Projects-subtitle">
           Sorcerers Sprouts
         </p>
@@ -76,6 +100,29 @@ function Projects() {
           </p>
         </div>
 
+        <div className="Projects-hyperlinks">
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "10px" }}>
+              <a
+                className="Home-link"
+                href="https://www.figma.com/design/hiwFrXs76wumzMd2pmtERT/WeHack?node-id=0-1&t=cfOeo9Z0uYitrUoT-1"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src="/figma.png" alt="" style={{ height: '50px', paddingRight: "4px" }} />
+              </a>
+              {/* TRY IT OUT COMING SOON */}
+              {/* <a
+                className="Home-link"
+                href="https://www.linkedin.com/in/amyphan2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/try.png" alt="" style={{ height: '50px' }} />
+              </a> */}
+            </div>
+        </div>
+
+       <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingBottom: "40px" }}></div>
 
         <p className="Projects-subtitle">
           SmartParking
@@ -101,6 +148,30 @@ function Projects() {
             hardware and software components together efficiently.
           </p>
         </div>
+
+        <div className="Projects-hyperlinks">
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "10px" }}>
+              <a
+                className="Home-link"
+                href="https://www.figma.com/design/H7mgJ6VJYnF2YMqfZJPUAe/SegFaultParking?node-id=0-1&t=NnVNDXN7viUfkBjd-1"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src="/figma.png" alt="" style={{ height: '50px', paddingRight: "4px" }} />
+              </a>
+              {/* TRY IT OUT COMING SOON */}
+              {/* <a
+                className="Home-link"
+                href="https://www.linkedin.com/in/amyphan2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/try.png" alt="" style={{ height: '50px' }} />
+              </a> */}
+            </div>
+        </div>
+
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingBottom: "40px" }}></div>
 
         <p className="Projects-subtitle">
           Coastal Compass+
@@ -128,6 +199,30 @@ function Projects() {
           </p>
         </div>
 
+        <div className="Projects-hyperlinks">
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "10px" }}>
+              <a
+                className="Home-link"
+                href="https://www.figma.com/design/6EX66SEjDkjlMIPbjTqbqG/Design?node-id=0-1&t=59S7uFcVjyoYznxe-1"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src="/figma.png" alt="" style={{ height: '50px', paddingRight: "4px" }} />
+              </a>
+              {/* TRY IT OUT COMING SOON */}
+              {/* <a
+                className="Home-link"
+                href="https://www.linkedin.com/in/amyphan2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/try.png" alt="" style={{ height: '50px' }} />
+              </a> */}
+            </div>
+        </div>
+
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingBottom: "40px" }}></div>
+
         <p className="Projects-subtitle">
           amyintech (this website!)
         </p>
@@ -152,6 +247,30 @@ function Projects() {
           practices to increase accessibility in the near future.
           </p>
         </div>
+
+        <div className="Projects-hyperlinks">
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingTop: "10px" }}>
+              <a
+                className="Home-link"
+                href="https://www.figma.com/design/EVDxvsOKNMKvzCR0RuRmMk/amyintech?node-id=0-1&t=DuX3zoozd87cchzr-1"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src="/figma.png" alt="" style={{ height: '50px', paddingRight: "4px" }} />
+              </a>
+              {/* TRY IT OUT COMING SOON */}
+              {/* <a
+                className="Home-link"
+                href="https://www.linkedin.com/in/amyphan2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/try.png" alt="" style={{ height: '50px' }} />
+              </a> */}
+            </div>
+        </div>
+
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', paddingBottom: "40px" }}></div>
       </header>
     </div>
   );
