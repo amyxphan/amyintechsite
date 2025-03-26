@@ -158,7 +158,7 @@ function About() {
         B.S. in Computer Engineering. During my time there, I founded the Society of Asian Scientists
          and Engineers (SASE) and spent my free time learning computer science concepts beyond my 
          formal studies. I'm currently a Software Engineer at JPMorgan Chase & Co. 
-         In my free time, I enjoy hiking, pilates, playing with my pet hamster Mochi, and taking care of my 
+         In my free time, I enjoy hiking, pilates, playing with my pet hamsters Mochi and Miso, and taking care of my 30+ 
          plants. I am passionate about accessibility and aim to create innovative solutions that 
          bridge gaps and drive positive change in the tech industry.
         </p>
