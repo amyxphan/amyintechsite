@@ -132,8 +132,7 @@ function About() {
           </h1>
 
           <ul className="About-intro">
-            <li> 🎓 &nbsp;&nbsp;Recent Grad from the University of North Texas (UNT) </li>
-            <li> 💻 &nbsp;&nbsp;B.S. Computer Engineering </li>
+            <li> 💻 &nbsp;&nbsp;B.S. Computer Engineering at UNT </li>
             <li> 👩‍💻 &nbsp;&nbsp;Software Engineer at JPMorgan Chase & Co. </li>
             <li> 🧪 &nbsp;&nbsp;Founder of Society of Asian Scientists and Engineers at UNT (SASE UNT) </li>
           </ul>
