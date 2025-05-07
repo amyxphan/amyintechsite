@@ -134,6 +134,7 @@ function About() {
           <ul className="About-intro">
             <li> 💻 &nbsp;&nbsp;B.S. Computer Engineering at UNT </li>
             <li> 👩‍💻 &nbsp;&nbsp;Software Engineer at JPMorgan Chase & Co. </li>
+            <li> 👩‍🎨 &nbsp;&nbsp;Graphic Design Coordinator for SASE National Convention 2025 </li>
             <li> 🧪 &nbsp;&nbsp;Founder of Society of Asian Scientists and Engineers at UNT (SASE UNT) </li>
           </ul>
         </div>
