@@ -48,7 +48,7 @@ function Home() {
             </a>
             <a
             className="Home-link"
-            href="https://drive.google.com/file/d/1mGHPWBJiWJ2d2_bXaw-nGjFP-8RpbTMX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BcGzBwtJh6vh-6b5VzLZ04PVog_9LQvg/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
